@@ -1,0 +1,14 @@
+// FONTS LOAD SECTION
+@mixin font($fname, $fstyle, $fweight, $furl){
+  @font-face{
+    font-family: $fname;
+    font-style: $fstyle;
+    font-weight: $fweight;
+    src: url($furl) format('woff2');
+  }
+}
+
+@include font('montserrat', normal, 400, '../fonts/Montserrat-Regular.woff2');
+@include font('montserrat', normal, 500, '../fonts/Montserrat-Medium.woff2');
+@include font('montserrat', normal, 600, '../fonts/Montserrat-SemiBold.woff2');
+@include font('playfair', normal, 700, '../fonts/PlayfairDisplay-Bold.woff2');

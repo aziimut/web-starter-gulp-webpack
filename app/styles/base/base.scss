@@ -1,0 +1,12 @@
+@use 'variables' as *;
+
+body {
+  position: relative;
+  font-size: $fontsize;
+  background: $background1;
+  color: $whitecolor;
+  font-family: $default-font;
+  line-height: $lineheight;
+  min-width: 320px;
+  overflow-x: hidden;
+}
